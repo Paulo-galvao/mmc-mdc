@@ -32,7 +32,7 @@ rl.question("Digite um número: ", function(num1) {
 
         for(i; i > 0; i--) {
             if(num1 % i == 0 && num2 % i ==0) {
-                console.log("MDC: " + i)
+                console.log("MDC: " + i);
                 break;
             }
         }
